@@ -1,11 +1,11 @@
 # Site settings
-title: Freelancer
-email: your-email@domain.com
-url: https://example.github.io
-description: "Write an awesome description for your new site here. You can edit this line in _config.yml. It will appear in your document head meta (for Google search results) and in your feed.xml site description."
-keywords: "your keywords, separated by commas"
-skills: "Web Developer - Graphic Artist - User Experience Designer"
-meta_author: LastName FirstName
+title: Programmer & Freelancer
+email: ombarus.dev@gmail.com
+url: https://ombarus.com/
+description: "Ombarus, Programmer, Game Developper in any language from C/C++/C# to Python & Ruby and even Java. I worked for 8 years in a Mobile Video Game Company in Canada where I worked on everything : Physics, Graphics, AI, Camera, UI and everything in-between."
+keywords: "Ombarus, Programmer, C++, Developper, Video Game, Mobile, Mobile App, Freelancer"
+skills: "Programmer - C++ - C# - Python"
+meta_author: Bouvier Guillaume
 
 # Google webmaster tools
 google_verify:
@@ -25,38 +25,37 @@ disqus_shortname: myshortname
 
 # Color settings (hex-codes without the leading hash-tag)
 color:
-  primary: 18bc9c #80B3FF
-  primary-rgb: "24,288,156" #"128,179,255"
-  secondary: 2c3e50 #FD6E8A
-  secondary-dark: 233140 #A2122F
+  primary: 2d2d2a #1e893c
+  primary-rgb: "45,45,42" #"30,137,60"
+  secondary: 1e893c #353831
+  secondary-dark: 353831 #2d2d2a
 
 # Footer settings
 footer:
-  copyright: Dr. Henry Jekyll
-  location: Location
+  copyright: Ombarus
+  location: Japan
   social: Around the Web
   credits: Credits
 
 # Social networks usernames (many more available: google-plus, flickr, dribbble, pinterest, instagram, tumblr, linkedin, etc.)
 social:
   - title: twitter
-    url: http://twitter.com/jekyllrb
+    url: 
   - title: facebook
     url:
   - title: stack-overflow
-    url: http://stackoverflow.com/questions/tagged/jekyll
-  - title: bitbucket
-    url: http://bitbucket.org/jekyll
+    url: 
+  - title: linkedin
+    url: https://www.linkedin.com/in/guillaume-bouvier-88a4863/
   - title: github
-    url: http://github.com/jekyll
+    url: https://github.com/Ombarus
 
 # Postal address (add as many lines as necessary)
 address:
-  - line: 3481 Melrose Place
-  - line: Beverly Hills, CA 90210
+  - line: Contact me by email.
 
 # Credits content
-credits: 'Freelancer is a free to use, open source Bootstrap theme created by <a href="http://startbootstrap.com">Start Bootstrap</a>.'
+credits: 'All content therein is owned by their respective creator. Please ask before you copy, distribute or reproduce anything you find on this website.'
 
 # Build settings
 markdown: kramdown
