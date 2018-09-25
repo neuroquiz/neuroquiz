@@ -7,7 +7,9 @@ img: dicedm.png
 alt: Promotional Banner for DiceDM on Google Play
 project-date: September 2018
 client: Personal Project
-category: Mobile App
-description: DiceDM is a sample project to sink my teeth into the Mobile App market & Google Play setup and release. It's a simple Dice Throwing App that should allow you to do any kind of crazy rolls that might be required by most TableTop RPGs like Dungeon & Dragon. Buy it for 0.99$ CAN soon in an Google Play store near you ! <a href="/dicedm/index.html">Check it out right in your browser for free</a>
+clienturl: /
+category: Android
+categoryurl: https://play.google.com/store
+description: DiceDM is a simple project to sink my teeth into the Mobile App market & Google Play setup and release. It's a simple Dice Throwing App that should allow you to do any kind of crazy rolls that might be required by most TableTop RPGs like Dungeon & Dragon. Buy it for 0.99$ CAN soon in an Google Play store near you ! <a href="/dicedm/index.html">Check it out right in your browser for free</a>
 
 ---
