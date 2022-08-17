@@ -48,9 +48,11 @@ social:
   - title: github
     url: https://github.com/Ombarus
   - title: patreon
-    url: http://www.patreon.com/ombarus
+    url: https://www.patreon.com/ombarus
   - title: instagram
-    url: http://www.instagram.com/ombarus1
+    url: https://www.instagram.com/ombarus1
+  - title: discord
+    url: https://discord.gg/8vUQuqh
 
 # Postal address (add as many lines as necessary)
 address:
