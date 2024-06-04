@@ -482,3 +482,50 @@ footer .footer-below {
     transform: translateZ(0);
     -webkit-transform: translateZ(0);
 }
+
+/* Pricing Section Styles */
+.pricing-link {
+    display: block;
+    padding: 50px; /* Increase padding for better spacing */
+    background: #f8f8f8;
+    border: 1px solid #ddd;
+    border-radius: 5px;
+    text-align: center;
+    transition: all 0.3s ease;
+    margin-bottom: 50px; /* Ensure margin between rows */
+}
+
+.pricing-link:hover {
+    background: #eee;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+
+.pricing-link h3 {
+    margin-top: 0;
+}
+
+.pricing-link ul {
+    list-style: none;
+    padding: 0;
+    margin: 15px 0; /* Ensure consistent spacing around lists */
+}
+
+.pricing-link ul li {
+    margin: 5px 0;
+}
+
+/* Ensure consistent vertical alignment of caption content */
+.caption-content p {
+    margin: 15px 0; /* Add margin to space out paragraphs */
+}
+
+/* Additional Styles for Better Spacing */
+.portfolio-item {
+    margin-bottom: 30px; /* Add margin to the bottom of each item */
+}
+
+@media(min-width:768px) {
+    .portfolio-item {
+        margin-bottom: 50px; /* Add more margin for larger screens */
+    }
+}
