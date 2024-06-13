@@ -2,10 +2,19 @@
 layout: default
 modal-id: 1
 date: 2014-07-18
-img: cabin.png
+img: airbnb.png
 alt: image-alt
-project-date: April 2014
+project-date: Jan 2023
 client: Start Bootstrap
-category: Web Development
-description: Use this area of the page to describe your project. Lorem ipsum dolor sit amet, consectetur adipisicing elit. Mollitia neque assumenda ipsam nihil, molestias magnam, recusandae quos quis inventore quisquam velit asperiores, vitae? Reprehenderit soluta, eos quod consequuntur itaque. Nam.
----
+
+Problem Statement :
+Given dataset include all information about host, listed properties, geographical location, prices reviews and all other required metrics. Analyse the given dataset make different predictions and draw meaningful conclusion in order to grow the business. Also state what can we learn from different predictions
+
+category: Data Visualization
+description: New York City Airbnb Open Data-set
+Since 2008, guests and hosts have used Airbnb to expand on traveling possibilities and present more unique, personalized way of experiencing the world. This dataset describes the listing activity and metrics in NYC, NY for 2019.
+
+About Dataset :
+
+This dataset has round  48895 listings and  16 Columns. It is mix between categorical and numeric values. Given dataset contains null values as blanks  well which we have to consider while doing analysis. Last_review and reviews_per_month has more null values. There are 5 neighbourhood group in which all listings located. Nearly 80-85% of listings located in Manhattan and Brooklyn. In Manhattan booking price is bit higher as compared to other neighbourhood groups. There are 3 kind of room type (i.e Shared Room, Private Room, Entire home/Apt). Out of which Shared room are least preferred by the customer even after having less price for booking. 
+
