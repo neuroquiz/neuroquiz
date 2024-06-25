@@ -3,7 +3,7 @@ title: Blanca De Leon
 email: bancadeleon2015@gmail.com
 url: https://bdeleon15.github.io
 description: "Write an awesome description for your new site here. You can edit this line in _config.yml. It will appear in your document head meta (for Google search results) and in your feed.xml site description."
-keywords: "your keywords, separated by commas"
+keywords: "chemical engineer, intern, student, professional, resume, labratory technician, "
 skills: "Student - Veteran - Future Chemical Engineer"
 meta_author: De Leon Blanca
 
@@ -33,7 +33,7 @@ color:
 # Footer settings
 footer:
   copyright: Dr. Henry Jekyll
-  location: Location
+  location: San Diego
   social: Around the Web
   credits: Credits
 
@@ -48,12 +48,12 @@ social:
   - title: bitbucket
     url: http://bitbucket.org/jekyll
   - title: github
-    url: http://github.com/jekyll
+    url: https://github.com/bdeleon15
 
 # Postal address (add as many lines as necessary)
 address:
-  - line: S
-  - line: 
+  - line: San Diego
+  - line: California
 
 # Credits content
 credits: 'Freelancer is a free to use, open source Bootstrap theme created by <a href="http://startbootstrap.com">Start Bootstrap</a>.'
