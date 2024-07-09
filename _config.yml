@@ -1,11 +1,11 @@
 # Site settings
-title: Sooyeon Lee's Portfolio
+title: Suyeon Lee's Portfolio
 email: syeun023@gamil.com
 url: https://github.com/jeromelachaud/freelancer-theme
 description: "호기심 가득한 나의 포트폴리오를 통해 데이터 과학과 분석 프로젝트를 만나보세요.(Explore my curious portfolio featuring data science and analysis projects.)" 
 keywords: "포트폴리오, 데이터 과학자, 데이터 분석가, 프로젝트, 창의성(portfolio, data scientist, data analyst, projects, creativity)"
 skills: "Data Scientist - Data Analyst "
-meta_author: Lee Sooyeon
+meta_author: Lee Suyeon
 
 # Google webmaster tools
 google_verify:
