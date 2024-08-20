@@ -30,12 +30,12 @@ footer:
 
 # Social networks usernames (many more available: google-plus, flickr, dribbble, pinterest, instagram, tumblr, linkedin, etc.)
 social:
+  - title: github
+    url: http://github.com/MikeLippincott
   - title: x
     url: https://x.com/mike_lippincott
   - title: linkedin
     url: https://www.linkedin.com/in/mlippincott/
-  - title: github
-    url: http://github.com/MikeLippincott
   - title: orcid
     url: https://orcid.org/0000-0002-8637-1448
 
