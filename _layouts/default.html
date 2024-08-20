@@ -6,12 +6,38 @@
   {% include nav.html %}
   {% include header.html %}
   {% include about.html %}
-  {% include portfolio_grid.html %}
-
-
+  
+  {% include publications.html %}
+  {% include repositories.html %}
+  {% include presentations.html %}
   {% include footer.html %}
-  {% include modals.html %}
-  {% include js.html %}
+  <!-- {% include modals.html %}
+  {% include js.html %} -->
+  <button id="back-to-top" title="Back to Top">↑</button>
+
+  <script>
+    // Get the button
+    var mybutton = document.getElementById("back-to-top");
+  
+    // When the user scrolls down 20px from the top of the document, show the button
+    window.onscroll = function() {
+      scrollFunction();
+    };
+  
+    function scrollFunction() {
+      if (document.body.scrollTop > 20 || document.documentElement.scrollTop > 20) {
+        mybutton.style.display = "block";
+      } else {
+        mybutton.style.display = "none";
+      }
+    }
+  
+    // When the user clicks on the button, scroll to the top of the document
+    mybutton.onclick = function() {
+      document.body.scrollTop = 0;
+      document.documentElement.scrollTop = 0;
+    };
+  </script>
 </body>
 
 </html>

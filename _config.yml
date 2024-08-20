@@ -2,9 +2,10 @@
 title: Mike Lippincott
 email: 1michaell2017@gmail.com
 url: https://mikelippincott.github.io
-description: "Write an awesome description for your new site here. You can edit this line in _config.yml. It will appear in your document head meta (for Google search results) and in your feed.xml site description."
-keywords: "your keywords, separated by commas"
+description: ""
+keywords: ""
 skills: "Computational Cell Biologist - PhD Candidate"
+university: "University of Colorado Anschutz Medical Campus"
 meta_author: Lippincott Michael
 
 # Google webmaster tools
@@ -18,7 +19,7 @@ color:
   primary: 1BBFA1
   primary-rgb: "24,288,156" #"128,179,255"
   secondary: 2C3759 #FD6E8A
-  secondary-dark: BF6B63 #A2122F
+  secondary-dark: 1BA698 #A2122F
 
 # Footer settings
 footer:
@@ -35,6 +36,9 @@ social:
     url: https://www.linkedin.com/in/mlippincott/
   - title: github
     url: http://github.com/MikeLippincott
+  - title: orcid
+    url: https://orcid.org/0000-0002-8637-1448
+
 
 # Postal address (add as many lines as necessary)
 address:

@@ -37,7 +37,8 @@ h6 {
 }
 
 hr.star-light,
-hr.star-primary {
+hr.star-primary,
+hr.star-dark {
     margin: 25px auto 30px;
     padding: 0;
     max-width: 250px;
@@ -48,7 +49,8 @@ hr.star-primary {
 }
 
 hr.star-light:after,
-hr.star-primary:after {
+hr.star-primary:after,
+hr.star-dark:after {
     content: "\f005";
     display: inline-block;
     position: relative;
@@ -76,6 +78,15 @@ hr.star-primary:after {
     background-color: #fff;
 }
 
+hr.star-dark {
+    border-color: #fff;
+}
+
+hr.star-dark:after {
+    color: #fff;
+    background-color: #{{ site.color.secondary-dark }};
+}
+
 .img-centered {
     margin: 0 auto;
 }
@@ -87,8 +98,8 @@ header {
 }
 
 header .container {
-    padding-top: 10px;
-    padding-bottom: 50px;
+    padding-top: 100px;
+    padding-bottom: 500px;
 }
 
 header img {
@@ -112,7 +123,7 @@ header .intro-text .skills {
 @media(min-width:768px) {
     header .container {
         padding-top: 150px;
-        padding-bottom: 10px;
+        padding-bottom: 100px;
     }
 
     header .intro-text .name {
@@ -172,7 +183,7 @@ header .intro-text .skills {
 }
 
 section {
-    padding: 50px 0;
+    padding: 100px 0;
 }
 
 section h2 {
@@ -184,6 +195,20 @@ section.success {
     color: #fff;
     background: #{{ site.color.primary }};
 }
+
+section.alternate {
+    color: #fff;
+    background: #{{ site.color.secondary-dark }};
+}
+.custom-link {
+    color: #fff; /* Change this to your desired color */
+    text-decoration: underline; /* Add underline to make it more visible */
+  }
+  
+  .custom-link:hover {
+    color: #000; /* Change this to your desired hover color */
+  }
+
 
 @media(max-width:767px) {
     section {
@@ -502,3 +527,34 @@ footer .footer-below {
   #back-to-top:hover {
     background-color: #555; /* Add a dark-grey background on hover */
   }
+
+
+/* CSS for repositories */
+#repo-tiles {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+}
+
+.repo-tile {
+    width: 100%;
+    margin-bottom: 20px;
+    padding: 5px;
+    border: 0px solid #eee;
+    border-radius: 0px;
+    background-color: #1BA698;
+    box-shadow: 0 0px 0px rgba(0, 0, 0, 0.1);
+}
+
+.repo-tile:hover {
+    background-color: #1BA698;
+}
+/* center the boxes on the page */
+.repo-tile {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+}
+
