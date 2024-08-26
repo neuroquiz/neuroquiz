@@ -1,7 +1,7 @@
 #!/bin/bash
 
 # Create a new Jekyll environment
-# conda env create -f jekyll_env.yaml
+conda env create -f jekyll_env.yaml
 conda activate jekyll_env
 
 # Install Jekyll
