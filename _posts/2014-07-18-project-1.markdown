@@ -2,10 +2,10 @@
 layout: default
 modal-id: 1
 date: 2014-07-18
-img: cabin.png
+img: modulo-compra.png
 alt: image-alt
 project-date: April 2014
 client: Start Bootstrap
 category: Web Development
-description: Use this area of the page to describe your project. Lorem ipsum dolor sit amet, consectetur adipisicing elit. Mollitia neque assumenda ipsam nihil, molestias magnam, recusandae quos quis inventore quisquam velit asperiores, vitae? Reprehenderit soluta, eos quod consequuntur itaque. Nam.
+description: Desarrollado con Spring Boot, utiliza JWT para autenticación y MySQL para la gestión de datos. Facilita la administración de categorías, productos, proveedores, pedidos de compra y cotizaciones. Desplegado en Azure, proporciona una API segura y eficiente.
 ---
