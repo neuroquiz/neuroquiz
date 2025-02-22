@@ -64,3 +64,11 @@ credits: 'All content therein is owned by their respective creator. Please ask b
 # Build settings
 markdown: kramdown
 permalink: pretty
+
+#for posts
+defaults:
+  - scope:
+      path: ""
+      type: "posts"
+    values:
+      permalink: ""
