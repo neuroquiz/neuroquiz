@@ -27,4 +27,6 @@ Gem::Specification.new do |spec|
   spec.add_development_dependency "bundler", "~> 2.0"
   spec.add_development_dependency "rake", "~> 13.0"
   spec.add_development_dependency "html-proofer", "~> 3.15"
+  spec.add_development_dependency "kramdown", "~> 2.3.0"
+  spec.add_development_dependency "kramdown-parser-gfm", "~> 1.0"
 end

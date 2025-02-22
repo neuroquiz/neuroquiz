@@ -1,5 +1,5 @@
 $(document).ready(function() {  
-  var modals = ['#privacydicedm', '#portfolioModal-DiceDM'];
+  var modals = ['#privacydicedm', '#portfolioModal-DiceDM', '#privacymots'];
   if (window.location.pathname.includes("dicedmfree.html")) {
 	   $("#portfolioModal-DiceDM").modal();
   }
