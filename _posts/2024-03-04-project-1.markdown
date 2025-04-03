@@ -4,7 +4,7 @@ title: "Real or Not Real: Visceral Pain"
 modal-id: 1
 date: 2024-03-04
 img: real_notreal_header.png
-alt: img-alt
+alt: imgage-alt
 project-date: April 2024
 client: 
 category: quiz
