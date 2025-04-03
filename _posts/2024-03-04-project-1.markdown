@@ -1,6 +1,6 @@
 ---
 layout: default
-title: "Real or Not Real: Visceral Pain"
+title: "Real or Not Real"
 modal-id: 1
 date: 2024-03-04
 img: real_notreal_header.png
