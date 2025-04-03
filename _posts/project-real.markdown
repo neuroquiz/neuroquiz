@@ -1,6 +1,6 @@
 ---
 layout: default
-modal-id: real not real
+modal-id: real/not real
 date: 2014-07-18
 img: cabin.png
 alt: image-alt
