@@ -31,6 +31,7 @@ We develop short and engaging gamified modules that invite members of the scient
 We combine expertise from neuroscience, computer science, linguistics, philosophy, and psychology to create modules that are both fun and informative. This interdisciplinary foundation enables the platform to offer a diverse range of activities for the broader scientific community.
 
 **Sharing resources**
+
 We offer a growing library of scientific prompts, mini-games, and literary spin-offs, designed for the broader scientific community.
 
 ## What
