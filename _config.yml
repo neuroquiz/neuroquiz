@@ -56,7 +56,7 @@ address:
   - line: Stephanstraße 1a, 04103 Leipzig
 
 # Credits content
-credits: 'Neuroquiz is a free to use, open source created by Marian Simarro, Ananda bajric, Aoran Song, Lydia Wiernik'
+credits: 'CogitOn is a free to use, open source created by Marian Simarro, Ananda bajric, Aoran Song, Lydia Wiernik'
 
 # Build settings
 markdown: kramdown
