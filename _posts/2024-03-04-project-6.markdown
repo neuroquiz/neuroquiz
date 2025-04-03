@@ -16,10 +16,10 @@ description:
 
 ![image-alt](/img/portfolio/team.png)
 
-**Marian Simarro**, PhD Candidate, Max Planck School of Cognition.  
-**Ananda Bajric**, PhD Candidate, Max Planck School of Cognition.  
-**Aoran Song**, PhD Candidate, Max Planck School of Cognition.  
-**Lydia Wiernik**, Guest Researcher, Max Planck Institute for Human Cognitive and Brain Sciences.  
+**Marian Simarro**, PhD Candidate, Max Planck School of Cognition (second left)
+**Ananda Bajric**, PhD Candidate, Max Planck School of Cognition (far right)
+**Aoran Song**, PhD Candidate, Max Planck School of Cognition (far left)
+**Lydia Wiernik**, Guest Researcher, Max Planck Institute for Human Cognitive and Brain Sciences (second right)
 
 CogitOn is led by a team of four researchers at the Max Planck Institute for Human Cognitive and Brain Sciences.
 
