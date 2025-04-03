@@ -1,5 +1,5 @@
 # Site settings
-title: Neuroquiz
+title: CogitOn
 email: your-email@domain.com
 url:  https://github.com/jeromelachaud/freelancer-theme
 description: "Write an awesome description for your new site here. You can edit this line in _config.yml. It will appear in your document head meta (for Google search results) and in your feed.xml site description."
@@ -32,7 +32,7 @@ color:
 
 # Footer settings
 footer:
-  copyright: Neuroquiz
+  copyright: CogitOn
   location: Location
   social: Around the Web
   credits: Credits
