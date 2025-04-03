@@ -2,10 +2,28 @@
 layout: default
 modal-id: 6
 date: 2024-03-04
-img: submarine.png
+img: mission.png
 alt: image-alt
 project-date: April 2014
-client: Start Bootstrap
-category: Web Development
-description: Use this area of the page to describe your project. Lorem ipsum dolor sit amet, consectetur adipisicing elit. Mollitia neque assumenda ipsam nihil, molestias magnam, recusandae quos quis inventore quisquam velit asperiores, vitae? Reprehenderit soluta, eos quod consequuntur itaque. Nam.
+client: 
+category:
+description: It can be difficult to tell what information is real and what is fake, especially with the rise of AI-generated news and science content and clickbait marketing tactics. We present a few examples for you to read and decide whether the information is real or not real, underlining the importance of reading thoroughly about a topic before believing the first thing you hear!
+
+### **Who**
+
+Marian Simarro, PhD Candidate, Max Planck School of Cognition.
+
+Ananda Bajric, PhD Candidate, Max Planck School of Cognition.
+
+Aoran Song, PhD Candidate, Max Planck School of Cognition.
+
+Lydia Wiernik, Guest Researcher, Max Planck Institute for Human Cognitive and Brain Sciences.
+
+CogitOn is led by a team of four researchers at the Max Planck Institute for Human Cognitive and Brain Sciences.
+
+### **Does**
+
+Designing interactive and educational projects. 
+
+We create short, gamified modules that invite members of the scientific community to engage actively with content. These modules are designed to stimulate curiosity, self-assessing of scientific intuitions, and pr.
 ---
