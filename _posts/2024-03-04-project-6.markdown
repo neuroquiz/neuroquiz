@@ -5,7 +5,7 @@ modal-id: 6
 date: 2024-03-04
 img: mission.png
 alt: image-alt
-project-date: April 2014
+project-date: April 2024
 client: 
 category:
 description: 
