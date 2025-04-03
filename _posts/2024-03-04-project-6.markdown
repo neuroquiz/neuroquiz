@@ -14,6 +14,8 @@ description:
 
 ## Who
 
+![image-alt](/img/portfolio/team.png)
+
 **Marian Simarro**, PhD Candidate, Max Planck School of Cognition.  
 **Ananda Bajric**, PhD Candidate, Max Planck School of Cognition.  
 **Aoran Song**, PhD Candidate, Max Planck School of Cognition.  
