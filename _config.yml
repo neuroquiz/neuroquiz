@@ -1,9 +1,9 @@
 # Site settings
 title: Neuroquiz
-email: your-email@domain.com
+email: 
 url: neuroquiz.github.io
 description: "Write an awesome description for your new site here. You can edit this line in _config.yml. It will appear in your document head meta (for Google search results) and in your feed.xml site description."
-meta_author: LastName FirstName
+meta_author: 
 
 # Google webmaster tools
 google_verify:
