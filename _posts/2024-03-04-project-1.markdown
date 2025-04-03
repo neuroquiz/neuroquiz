@@ -1,30 +1,65 @@
 ---
 layout: default
+title: "Real or Not Real: Visceral Pain"
 modal-id: 1
 date: 2024-03-04
 img: cabin.png
 alt: image-alt
 project-date: April 2024
 client: 
-category: 
-description: It can be difficult to tell what information is real and what is fake, especially with the rise of AI-generated news and science content and clickbait marketing tactics. We present a few examples for you to read and decide whether the information is real or not real, underlining the importance of reading thoroughly about a topic before believing the first thing you hear!
+category: quiz
+description: >-
+  It can be difficult to tell what information is real and what is fake, especially with the rise of AI-generated news and science content and clickbait marketing tactics. We present a few examples for you to read and decide whether the information is real or not real, underlining the importance of reading thoroughly about a topic before believing the first thing you hear!
 ---
 
-<div class="statement">Rectal distensions are a common way to study visceral pain.</div>
+<!-- Optional: A visual separator between the description and quiz -->
+<hr class="quiz-separator">
+<h3 style="text-align: center;">Quiz</h3>
 
-<div class="button-group">
-  <button class="real-btn" onclick="selectChoice('Real')">Real</button>
-  <button class="not-real-btn" onclick="selectChoice('Not Real')">Not real</button>
-</div>
-
-<button class="confirm-btn" onclick="confirmChoice()">Confirm</button>
-
-<div id="answer" class="answer">
-  <strong>Real.</strong> The study explored whether a brief relaxation exercise could influence placebo or nocebo effects in visceral pain induced by rectal balloon distension. Participants received neutral saline infusions after either performing relaxation exercises or no relaxation, combined with positive, negative, or neutral treatment suggestions. Results showed that relaxation enhanced placebo responses (reduced visceral pain from positive suggestions) but did not significantly alter nocebo responses. This indicates that relaxation exercises could boost positive psychological influences specifically in managing visceral pain. 
-  [DOI: 10.3389/fpsyt.2019.00144](https://doi.org/10.3389/fpsyt.2019.00144)
+<div class="quiz-container">
+  <div class="quiz-menu" style="text-align: center; margin-bottom: 20px;">
+    <button onclick="showQuestion(1)" class="quiz-menu-button">1</button>
+    <button onclick="showQuestion(2)" class="quiz-menu-button">2</button>
+    <button class="quiz-menu-button" disabled>3</button>
+    <button class="quiz-menu-button" disabled>4</button>
+    <button class="quiz-menu-button" disabled>5</button>
+    <button class="quiz-menu-button" disabled>6</button>
+    <button class="quiz-menu-button" disabled>7</button>
+    <button class="quiz-menu-button" disabled>8</button>
+    <button class="quiz-menu-button" disabled>9</button>
+    <button class="quiz-menu-button" disabled>10</button>
+  </div>
+  
+  <!-- Question 1 -->
+  <div class="quiz-question" id="question-1">
+    <div class="statement">Rectal distensions are a common way to study visceral pain.</div>
+    <div class="button-group">
+      <button class="real-btn" onclick="selectChoice('Real', 1, event)">Real</button>
+      <button class="not-real-btn" onclick="selectChoice('Not Real', 1, event)">Not real</button>
+    </div>
+    <button class="confirm-btn" onclick="confirmChoice(1)">Confirm</button>
+    <div class="answer" id="answer-1">
+      <strong>Real.</strong> The study explored whether a brief relaxation exercise could influence placebo or nocebo effects in visceral pain induced by rectal balloon distension. Participants received neutral saline infusions after either performing relaxation exercises or no relaxation, combined with positive, negative, or neutral treatment suggestions. Results showed that relaxation enhanced placebo responses (reduced visceral pain from positive suggestions) but did not significantly alter nocebo responses. This indicates that relaxation exercises could boost positive psychological influences specifically in managing visceral pain. 
+      <br>(<a href="https://doi.org/10.3389/fpsyt.2019.00144" target="_blank">DOI: 10.3389/fpsyt.2019.00144</a>)
+    </div>
+  </div>
+  
+  <!-- Question 2 -->
+  <div class="quiz-question" id="question-2" style="display: none;">
+    <div class="statement">Placeholder for Question 2: [Insert your question here]</div>
+    <div class="button-group">
+      <button class="real-btn" onclick="selectChoice('Real', 2, event)">Real</button>
+      <button class="not-real-btn" onclick="selectChoice('Not Real', 2, event)">Not real</button>
+    </div>
+    <button class="confirm-btn" onclick="confirmChoice(2)">Confirm</button>
+    <div class="answer" id="answer-2">
+      <strong>Answer for Question 2.</strong> This is a placeholder answer for the second question.
+    </div>
+  </div>
 </div>
 
 <style>
+/* General styles for the quiz interface */
 .statement {
   font-size: 20px;
   margin-bottom: 20px;
@@ -55,22 +90,77 @@ button {
   margin-left: auto;
   margin-right: auto;
 }
+
+/* Quiz container and menu styling */
+.quiz-container {
+  border: 1px solid #ddd;
+  padding: 20px;
+  border-radius: 8px;
+  max-width: 800px;
+  margin: 20px auto;
+}
+.quiz-menu {
+  margin-bottom: 20px;
+}
+.quiz-menu-button {
+  font-size: 16px;
+  padding: 6px 12px;
+  margin: 0 5px;
+  cursor: pointer;
+  border: 1px solid #008CBA;
+  background-color: #008CBA;
+  color: white;
+  border-radius: 4px;
+}
+.quiz-menu-button:hover:not(:disabled) {
+  background-color: #006494;
+}
+.quiz-menu-button:disabled {
+  background-color: #ccc;
+  border-color: #ccc;
+  cursor: not-allowed;
+}
+
+/* Optional separator style */
+.quiz-separator {
+  margin: 40px auto;
+  max-width: 800px;
+  border: none;
+  border-top: 2px solid #ddd;
+}
 </style>
 
 <script>
-let userChoice = null;
+let userChoices = {};
 
-function selectChoice(choice) {
-  userChoice = choice;
-  document.querySelectorAll('.button-group button').forEach(btn => btn.style.opacity = '0.6');
+// Function to show a specific question
+function showQuestion(q) {
+  const questions = document.querySelectorAll('.quiz-question');
+  questions.forEach(function(qEl) {
+    qEl.style.display = 'none';
+  });
+  document.getElementById('question-' + q).style.display = 'block';
+}
+
+// Function to register a user's choice for a given question
+function selectChoice(choice, questionNum, event) {
+  userChoices[questionNum] = choice;
+  // Reset opacity for all buttons in this question's button group
+  const parent = event.target.closest('.button-group');
+  const buttons = parent.querySelectorAll('button');
+  buttons.forEach(function(btn) {
+    btn.style.opacity = '0.6';
+  });
   event.target.style.opacity = '1';
 }
 
-function confirmChoice() {
-  if (userChoice) {
-    document.getElementById('answer').style.display = 'block';
+// Function to confirm a user's choice and show the answer
+function confirmChoice(questionNum) {
+  if (userChoices[questionNum]) {
+    document.getElementById('answer-' + questionNum).style.display = 'block';
   } else {
     alert("Please select an option first.");
   }
 }
 </script>
+
