@@ -9,8 +9,9 @@ client: Start
 category: 
 description: Use this area of the page to describe your project. Lorem ipsum dolor sit amet, consectetur adipisicing elit. Mollitia neque assumenda ipsam nihil, molestias magnam, recusandae quos quis inventore quisquam velit asperiores, vitae? Reprehenderit soluta, eos quod consequuntur itaque. Nam.
 ---
-<iframe src="[https://www.example.com](https://mywordle.strivemath.com/?word=ebjxwe)" 
-  width="600" 
-  height="400" 
-  title="Wordle">
-  </iframe>
+  <!-- Your new embedded content section -->
+  <section id="embed-content">
+    <hr>
+    <h3>Embedded Example Website:</h3>
+    <iframe src="https://mywordle.strivemath.com/?word=ebjxwe" width="600" height="400" title="Example Website"></iframe>
+  </section>
