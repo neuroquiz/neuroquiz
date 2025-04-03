@@ -1,11 +1,52 @@
 ---
 layout: default
+title: "Multiple Choice"
 modal-id: 4
 date: 2024-03-07
 img: multiple_choice_header.png
 alt: image-alt
 project-date: April 2024
-client: 
-category: 
-description: Use this area of the page to describe your project. Lorem ipsum dolor sit amet, consectetur adipisicing elit. Mollitia neque assumenda ipsam nihil, molestias magnam, recusandae quos quis inventore quisquam velit asperiores, vitae? Reprehenderit soluta, eos quod consequuntur itaque. Nam.
+client:
+category:
+description:
 ---
+
+<hr class="quiz-separator">
+<h3 style="text-align: center;">Multiple Choice Quiz</h3>
+
+<div class="quiz-container">
+  <!-- Quiz Menu -->
+  <div class="quiz-menu" style="text-align: center; margin-bottom: 20px;">
+    <button onclick="showMCQuestion(1)" class="quiz-menu-button">1</button>
+    <button onclick="showMCQuestion(2)" class="quiz-menu-button">2</button>
+    <button onclick="showMCQuestion(3)" class="quiz-menu-button">3</button>
+    <button onclick="showMCQuestion(4)" class="quiz-menu-button">4</button>
+    <button onclick="showMCQuestion(5)" class="quiz-menu-button">5</button>
+    <button onclick="showMCQuestion(6)" class="quiz-menu-button">6</button>
+    <button onclick="showMCQuestion(7)" class="quiz-menu-button">7</button>
+    <button onclick="showMCQuestion(8)" class="quiz-menu-button">8</button>
+    <button onclick="showMCQuestion(9)" class="quiz-menu-button">9</button>
+    <button onclick="showMCQuestion(10)" class="quiz-menu-button">10</button>
+  </div>
+  
+  <!-- Question 1 -->
+  <div class="quiz-question" id="mc-question-1">
+    <div class="statement">[Placeholder for Question 1: Insert your question here]</div>
+    <div class="button-group">
+      <button class="mc-option" onclick="selectMCChoice('A', 1, event)">Option A</button>
+      <button class="mc-option" onclick="selectMCChoice('B', 1, event)">Option B</button>
+      <button class="mc-option" onclick="selectMCChoice('C', 1, event)">Option C</button>
+    </div>
+    <button class="confirm-btn" onclick="confirmMCChoice(1)">Confirm</button>
+    <div class="answer" id="mc-answer-1">
+      <strong>Correct Answer:</strong> Option <span id="mc-correct-1">B</span>
+    </div>
+  </div>
+  
+  <!-- Question 2 -->
+  <div class="quiz-question" id="mc-question-2" style="display: none;">
+    <div class="statement">[Placeholder for Question 2: Insert your question here]</div>
+    <div class="button-group">
+      <button class="mc-option" onclick="selectMCChoice('A', 2, event)">Option A</button>
+      <button class="mc-option" onclick="selectMCChoice('B', 2, event)">Option B</button>
+      <button class="mc-option" onclick="selectMCChoice('C',
