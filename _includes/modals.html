@@ -1,4 +1,4 @@
-f<!-- Portfolio Modals -->
+<!-- Portfolio Modals -->
 {% for post in site.posts %}
 <div class="portfolio-modal modal fade" id="portfolioModal-{{ post.modal-id }}" tabindex="-1" role="dialog"
   aria-hidden="true">
@@ -16,9 +16,14 @@ f<!-- Portfolio Modals -->
             <h2>{{ post.title }}</h2>
             <hr class="separator"> <!-- Replaced the star class with the separator class -->
             <img src="img/portfolio/{{ post.img }}" class="img-responsive img-centered" alt="{{ post.alt }}">
+
             {% if post.description %}
             <p>{{ post.description }}</p>
             {% endif %}
+
+            <!-- ✅ This ensures the full content (e.g. quiz) appears -->
+            {{ post.content }}
+
             <ul class="list-inline item-details">
               {% if post.client %}
               <li>Client:
