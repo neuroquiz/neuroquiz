@@ -3,7 +3,7 @@ layout: default
 title: "Real or Not Real: Visceral Pain"
 modal-id: 1
 date: 2024-03-04
-img: cabin.png
+img: 
 alt: image-alt
 project-date: April 2024
 client: 
