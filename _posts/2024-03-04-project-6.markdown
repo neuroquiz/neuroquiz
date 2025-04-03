@@ -3,7 +3,6 @@ layout: default
 title: "Mission Statement"
 modal-id: 6
 date: 2024-03-04
-title: 
 img: mission.png
 alt: image-alt
 project-date: April 2014
