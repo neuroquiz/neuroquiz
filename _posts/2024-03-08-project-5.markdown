@@ -1,28 +1,25 @@
 ---
 layout: default
 modal-id: 5
-date: 2024-03-08
+date: 2024-03-04
 img: stories_poems_header.png
 alt: image-alt
 project-date: April 2014
 client:
 category:
-description: Get creative! 
+description: Get creative!
 ---
 
 ## Submissions
 
-**It would be Grand**  
+It would be **Grand**  
 it would be swell  
-if only I remembered well.  
+if only I remembered well.
 
-**Tip-of-tongue**  
-
-Yet I can’t explain  
-This world of pain—  
+Tip-of-tongue, yet I can’t explain  
+this world of pain—  
 mere tricks of my brain.
 
 ### Relationship to Research
 
 This “poem” reflects my project regarding the interruptive effect of electrical pain, administered either on the head or the back on memory. The aim is to explore how it relates to resting-state signatures, and whether it can differentiate chronic migraine and chronic back pain patient populations from healthy controls.
-
