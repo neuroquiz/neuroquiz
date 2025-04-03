@@ -9,7 +9,7 @@ client:
 category:
 description: It can be difficult to tell what information is real and what is fake, especially with the rise of AI-generated news and science content and clickbait marketing tactics. We present a few examples for you to read and decide whether the information is real or not real, underlining the importance of reading thoroughly about a topic before believing the first thing you hear!
 
-### **Who**
+**Who**
 
 Marian Simarro, PhD Candidate, Max Planck School of Cognition.
 
@@ -21,7 +21,7 @@ Lydia Wiernik, Guest Researcher, Max Planck Institute for Human Cognitive and Br
 
 CogitOn is led by a team of four researchers at the Max Planck Institute for Human Cognitive and Brain Sciences.
 
-### **Does**
+**Does**
 
 Designing interactive and educational projects. 
 
