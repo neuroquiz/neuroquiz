@@ -2,7 +2,7 @@
 layout: default
 title: "Wordle"
 modal-id: 2
-date: 2024-05-05
+date: 2024-05-08
 img: wordle_header.png
 alt: image-alt
 project-date: April 2014
