@@ -1,10 +1,10 @@
 # Site settings
-title: Freelancer
+title: neuroquiz
 email: your-email@domain.com
-url: https://jeromelachaud.com/freelancer-theme
+url: https://neuroquiz.github.io/neuroquiz/
 description: "Write an awesome description for your new site here. You can edit this line in _config.yml. It will appear in your document head meta (for Google search results) and in your feed.xml site description."
 keywords: "your keywords, separated by commas"
-skills: "Web Developer - Graphic Artist - User Experience Designer"
+skills:
 meta_author: LastName FirstName
 
 # Google webmaster tools
@@ -32,8 +32,8 @@ color:
 
 # Footer settings
 footer:
-  copyright: Dr. Henry Jekyll
-  location: Location
+  copyright: neuroquiz
+  location:  Max Planck Institute for Human Cognitve and Brain Sciences
   social: Around the Web
   credits: Credits
 
@@ -41,22 +41,18 @@ footer:
 social:
   - title: twitter
     url: http://twitter.com/jekyllrb
-  - title: facebook
+  - title: instagram
     url:
-  - title: stack-overflow
-    url: http://stackoverflow.com/questions/tagged/jekyll
-  - title: bitbucket
-    url: http://bitbucket.org/jekyll
   - title: github
-    url: http://github.com/jekyll
+    url: https://github.com/neuroquiz
 
 # Postal address (add as many lines as necessary)
 address:
-  - line: 3481 Melrose Place
-  - line: Beverly Hills, CA 90210
+  - line: Stephanstraße 1a 
+  - line: 04103 Leipzig
 
 # Credits content
-credits: 'Freelancer is a free to use, open source Bootstrap theme created by <a href="http://startbootstrap.com">Start Bootstrap</a>.'
+credits: 'neuroquiz is a free to use, created by Marian Simarro, Ananda Bajric, Aoran Song, Lydia Wiernik 
 
 # Build settings
 markdown: kramdown
