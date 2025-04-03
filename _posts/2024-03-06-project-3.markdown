@@ -7,6 +7,6 @@ alt: image-alt
 project-date: April 2014
 client: 
 category: 
-description: Use this area of the page to describe your project. Lorem ipsum dolor sit amet, consectetur adipisicing elit. Mollitia neque assumenda ipsam nihil, molestias magnam, recusandae quos quis inventore quisquam velit asperiores, vitae? Reprehenderit soluta, eos quod consequuntur itaque. Nam.
+description: Make four groups of four words. Each group is connected in some way. Can you figure them all out? 
 ---
  <iframe src="https://connections.zsrobinson.com/play?options=eyJuYW1lcyI6WyJlcG9ueW1vdXMgbmV1cm9zY2llbmNlIHRlcm1zIiwiYmFzYWwgX19fXyIsImNvbG91ciBpZGlvbXMgZm9yIGZlZWxpbmdzIiwicmVsYXRlZCB0byBiYXNpYyBuZXVyb3NjaWVuY2UgY29uY2VwdHMiXSwid29yZHMiOltbIndlcm5pY2tlIiwiYnJvY2EiLCJ3aWxsaXMiLCJicm9kbWFubiJdLFsiZ2FuZ2xpYSIsImZvcmVicmFpbiIsImxhbWluYSIsInN0YXRlIl0sWyJwaW5rIiwiYmx1ZSIsImdyZWVuIiwicmVkIl0sWyJncmV5Iiwid2hpdGUiLCJuZXVyb24iLCJjb3J0ZXgiXV0sImF1dGhvciI6IiIsInRpdGxlIjoibmV1cm9xdWl6In0=" width="100%" height="600px" style="border: none;"></iframe>
