@@ -13,7 +13,7 @@ description: Use this area of the page to describe your project. Lorem ipsum dol
 
 <!-- Optional visual separator between description and quiz -->
 <hr class="quiz-separator">
-<h3 style="text-align: center;">Quiz</h3>
+<h3 style="text-align: center;">Wordle</h3>
 
 <div class="quiz-container">
   <!-- Quiz Menu -->
@@ -25,67 +25,34 @@ description: Use this area of the page to describe your project. Lorem ipsum dol
     <button onclick="showQuestion(5)" class="quiz-menu-button">5</button>
   </div>
   
-  <!-- Question 1 -->
+  <!-- insula -->
   <div class="quiz-question" id="question-1">
-    <div class="statement">Wordle 1/5.</div>
    <iframe src="https://mywordle.strivemath.com/?word=ebjxwe" width="100%" height="600px" style="border: none;"></iframe>
 
   </div>
   
-  <!-- Question 2 -->
-  <div class="quiz-question" id="question-2" style="display: none;">
-    <div class="statement">Adults “look like” their names, but children do not.</div>
-    <div class="button-group">
-      <button class="real-btn" onclick="selectChoice('Real', 2, event)">Real</button>
-      <button class="not-real-btn" onclick="selectChoice('Not Real', 2, event)">Not real</button>
-    </div>
-    <button class="confirm-btn" onclick="confirmChoice(2)">Confirm</button>
-    <div class="answer" id="answer-2">
-      <strong>Real.</strong> One study published in 2024 used a variety of methodological approaches—including a machine-learning paradigm comparing images of people with the same given name, a face-to-name matching task, and a simulation wherein children’s faces were digitally aged to adulthood—to determine that the face–name matching effect is age-dependent. In other words, people “look like” their names not because they were named based on their appearance at birth, but due to a self-fulfilling prophecy mechanism where facial appearance develops over time in line with the expectations of the given name.
-      <br>(<a href="https://doi.org/10.1073/pnas.2405334121" target="_blank">DOI: 10.1073/pnas.2405334121</a>)
-    </div>
+  <!-- cortical -->
+  <div class="quiz-question" id="question-2" style="display: none;"> 
+    <iframe src="https://mywordle.strivemath.com/?word=yciwtgwz" width="100%" height="600px" style="border: none;"></iframe>
+
   </div>
   
-  <!-- Question 3 -->
+  <!-- basal -->
   <div class="quiz-question" id="question-3" style="display: none;">
-    <div class="statement">Tickling can affect decision-making in rats.</div>
-    <div class="button-group">
-      <button class="real-btn" onclick="selectChoice('Real', 3, event)">Real</button>
-      <button class="not-real-btn" onclick="selectChoice('Not Real', 3, event)">Not real</button>
-    </div>
-    <button class="confirm-btn" onclick="confirmChoice(3)">Confirm</button>
-    <div class="answer" id="answer-3">
-      <strong>Real.</strong> “Laughing Rats Are Optimistic” – Tickling rats induces positive emotions, as evidenced by their 50-kHz ultrasonic vocalizations (i.e., “laughter”), which biases their decision-making toward optimism when interpreting ambiguous cues.
-      <br>(<a href="https://doi.org/10.1371/journal.pone.0051959" target="_blank">DOI: 10.1371/journal.pone.0051959</a>)
-    </div>
+    <iframe src="https://mywordle.strivemath.com/?word=xojdw" width="100%" height="600px" style="border: none;"></iframe>
+
   </div>
   
-  <!-- Question 4 -->
+  <!-- brain -->
   <div class="quiz-question" id="question-4" style="display: none;">
-    <div class="statement">People with schizophrenia are more unpredictable and violent than the general population.</div>
-    <div class="button-group">
-      <button class="real-btn" onclick="selectChoice('Real', 4, event)">Real</button>
-      <button class="not-real-btn" onclick="selectChoice('Not Real', 4, event)">Not real</button>
-    </div>
-    <button class="confirm-btn" onclick="confirmChoice(4)">Confirm</button>
-    <div class="answer" id="answer-4">
-      <strong>Not Real.</strong> Although some epidemiological reviews have reported higher rates of violence among individuals with schizophrenia compared to the general population, much of this violence is attributable to a small subgroup with co-occurring substance abuse and a prior history of violence.
-      <br>(<a href="https://doi.org/10.1371/journal.pmed.1000120" target="_blank">DOI: 10.1371/journal.pmed.1000120</a> ; <a href="https://doi.org/10.1016/S0920-9964(03)00091-4" target="_blank">DOI: 10.1016/S0920-9964(03)00091-4</a>)
-    </div>
+    <iframe src="https://mywordle.strivemath.com/?word=xfrly" width="100%" height="600px" style="border: none;"></iframe>
+
   </div>
   
-  <!-- Question 5 -->
+  <!-- think -->
   <div class="quiz-question" id="question-5" style="display: none;">
-    <div class="statement">Music can be reconstructed from human auditory cortex fMRI activity using nonlinear decoding models.</div>
-    <div class="button-group">
-      <button class="real-btn" onclick="selectChoice('Real', 5, event)">Real</button>
-      <button class="not-real-btn" onclick="selectChoice('Not Real', 5, event)">Not real</button>
-    </div>
-    <button class="confirm-btn" onclick="confirmChoice(5)">Confirm</button>
-    <div class="answer" id="answer-5">
-      <strong>Not Real.</strong> The study titled “Music can be reconstructed from human auditory cortex activity using nonlinear decoding models” investigated how the human brain processes music by analyzing intracranial EEG data from 29 patients who listened to a Pink Floyd song. Researchers used a stimulus reconstruction approach, previously applied in speech studies, to reconstruct a recognizable song from direct neural recordings, thereby providing insights into the neural dynamics of music perception.
-      <br>(<a href="https://doi.org/10.1371/journal.pbio.3002176" target="_blank">DOI: 10.1371/journal.pbio.3002176</a>)
-    </div>
+    <iframe src="https://mywordle.strivemath.com/?word=pvzqv" width="100%" height="600px" style="border: none;"></iframe>
+
   </div>
 
 <style>
