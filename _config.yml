@@ -1,10 +1,8 @@
 # Site settings
-title: neuroquiz
+title: Neuroquiz
 email: your-email@domain.com
-url: https://neuroquiz.github.io/neuroquiz/
+url: neuroquiz.github.io
 description: "Write an awesome description for your new site here. You can edit this line in _config.yml. It will appear in your document head meta (for Google search results) and in your feed.xml site description."
-keywords: "your keywords, separated by commas"
-skills:
 meta_author: LastName FirstName
 
 # Google webmaster tools
@@ -32,8 +30,8 @@ color:
 
 # Footer settings
 footer:
-  copyright: neuroquiz
-  location:  Max Planck Institute for Human Cognitve and Brain Sciences
+  copyright: Neuroquiz
+  location: Location
   social: Around the Web
   credits: Credits
 
@@ -41,18 +39,18 @@ footer:
 social:
   - title: twitter
     url: http://twitter.com/jekyllrb
-  - title: instagram
+  - title: facebook
     url:
   - title: github
-    url: https://github.com/neuroquiz
+    url: http://github.com/neuroquiz
 
 # Postal address (add as many lines as necessary)
 address:
-  - line: Stephanstraße 1a 
-  - line: 04103 Leipzig
+  - line: Max Planck Institute for Human Cognitve and Brain Sciences
+  - line: Stephanstraße 1a, 04103 Leipzig
 
 # Credits content
-credits: 'neuroquiz is a free to use, created by Marian Simarro, Ananda Bajric, Aoran Song, Lydia Wiernik 
+credits: 'neuoquiz is a free to use, created by Marian Simarro, Ananda bajric, Aoran Song, Lydia Wiernik
 
 # Build settings
 markdown: kramdown
