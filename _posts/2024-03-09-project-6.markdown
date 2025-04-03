@@ -7,8 +7,7 @@ alt: image-alt
 project-date: April 2014
 client: 
 category:
-description: > 
-Mission
+description: 
 
 ---
 
