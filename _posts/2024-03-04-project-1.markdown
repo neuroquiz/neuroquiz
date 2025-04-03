@@ -47,70 +47,74 @@ description: >-
   
   <!-- Question 2 -->
   <div class="quiz-question" id="question-2" style="display: none;">
-    <div class="statement">[Placeholder for Question 2: Insert your question here]</div>
+    <div class="statement">Adults “look like” their names, but children do not.</div>
     <div class="button-group">
       <button class="real-btn" onclick="selectChoice('Real', 2, event)">Real</button>
       <button class="not-real-btn" onclick="selectChoice('Not Real', 2, event)">Not real</button>
     </div>
     <button class="confirm-btn" onclick="confirmChoice(2)">Confirm</button>
     <div class="answer" id="answer-2">
-      <strong>Answer for Question 2.</strong> Placeholder answer for the second question.
+      <strong>Real.</strong> One study published in 2024 used a variety of methodological approaches—including a machine-learning paradigm comparing images of people with the same given name, a face-to-name matching task, and a simulation wherein children’s faces were digitally aged to adulthood—to determine that the face–name matching effect is age-dependent. In other words, people “look like” their names not because they were named based on their appearance at birth, but due to a self-fulfilling prophecy mechanism where facial appearance develops over time in line with the expectations of the given name.
+      <br>(<a href="https://doi.org/10.1073/pnas.2405334121" target="_blank">DOI: 10.1073/pnas.2405334121</a>)
     </div>
   </div>
   
   <!-- Question 3 -->
   <div class="quiz-question" id="question-3" style="display: none;">
-    <div class="statement">[Placeholder for Question 3: Coming soon]</div>
+    <div class="statement">Tickling can affect decision-making in rats.</div>
     <div class="button-group">
       <button class="real-btn" onclick="selectChoice('Real', 3, event)">Real</button>
       <button class="not-real-btn" onclick="selectChoice('Not Real', 3, event)">Not real</button>
     </div>
     <button class="confirm-btn" onclick="confirmChoice(3)">Confirm</button>
     <div class="answer" id="answer-3">
-      <strong>Answer for Question 3.</strong> Placeholder answer.
+      <strong>Real.</strong> “Laughing Rats Are Optimistic” – Tickling rats induces positive emotions, as evidenced by their 50-kHz ultrasonic vocalizations (i.e., “laughter”), which biases their decision-making toward optimism when interpreting ambiguous cues.
+      <br>(<a href="https://doi.org/10.1371/journal.pone.0051959" target="_blank">DOI: 10.1371/journal.pone.0051959</a>)
     </div>
   </div>
   
   <!-- Question 4 -->
   <div class="quiz-question" id="question-4" style="display: none;">
-    <div class="statement">[Placeholder for Question 4: Coming soon]</div>
+    <div class="statement">People with schizophrenia are more unpredictable and violent than the general population.</div>
     <div class="button-group">
       <button class="real-btn" onclick="selectChoice('Real', 4, event)">Real</button>
       <button class="not-real-btn" onclick="selectChoice('Not Real', 4, event)">Not real</button>
     </div>
     <button class="confirm-btn" onclick="confirmChoice(4)">Confirm</button>
     <div class="answer" id="answer-4">
-      <strong>Answer for Question 4.</strong> Placeholder answer.
+      <strong>Not Real.</strong> Although some epidemiological reviews have reported higher rates of violence among individuals with schizophrenia compared to the general population, much of this violence is attributable to a small subgroup with co-occurring substance abuse and a prior history of violence.
+      <br>(<a href="https://doi.org/10.1371/journal.pmed.1000120" target="_blank">DOI: 10.1371/journal.pmed.1000120</a> ; <a href="https://doi.org/10.1016/S0920-9964(03)00091-4" target="_blank">DOI: 10.1016/S0920-9964(03)00091-4</a>)
     </div>
   </div>
   
   <!-- Question 5 -->
   <div class="quiz-question" id="question-5" style="display: none;">
-    <div class="statement">[Placeholder for Question 5: Coming soon]</div>
+    <div class="statement">Music can be reconstructed from human auditory cortex fMRI activity using nonlinear decoding models.</div>
     <div class="button-group">
       <button class="real-btn" onclick="selectChoice('Real', 5, event)">Real</button>
       <button class="not-real-btn" onclick="selectChoice('Not Real', 5, event)">Not real</button>
     </div>
     <button class="confirm-btn" onclick="confirmChoice(5)">Confirm</button>
     <div class="answer" id="answer-5">
-      <strong>Answer for Question 5.</strong> Placeholder answer.
+      <strong>Not Real.</strong> The study titled “Music can be reconstructed from human auditory cortex activity using nonlinear decoding models” investigated how the human brain processes music by analyzing intracranial EEG data from 29 patients who listened to a Pink Floyd song. Researchers used a stimulus reconstruction approach, previously applied in speech studies, to reconstruct a recognizable song from direct neural recordings, thereby providing insights into the neural dynamics of music perception.
+      <br>(<a href="https://doi.org/10.1371/journal.pbio.3002176" target="_blank">DOI: 10.1371/journal.pbio.3002176</a>)
     </div>
   </div>
   
   <!-- Question 6 -->
   <div class="quiz-question" id="question-6" style="display: none;">
-    <div class="statement">[Placeholder for Question 6: Coming soon]</div>
+    <div class="statement">Schizophrenia and personality disorders are associated with a similar reduction in life expectancy.</div>
     <div class="button-group">
       <button class="real-btn" onclick="selectChoice('Real', 6, event)">Real</button>
       <button class="not-real-btn" onclick="selectChoice('Not Real', 6, event)">Not real</button>
     </div>
     <button class="confirm-btn" onclick="confirmChoice(6)">Confirm</button>
     <div class="answer" id="answer-6">
-      <strong>Answer for Question 6.</strong> Placeholder answer.
+      <strong>Real.</strong> <a href="https://doi.org/10.1016/j.eclinm.2023.102294" target="_blank">https://doi.org/10.1016/j.eclinm.2023.102294</a>
     </div>
   </div>
   
-  <!-- Question 7 -->
+  <!-- Question 7 Placeholder -->
   <div class="quiz-question" id="question-7" style="display: none;">
     <div class="statement">[Placeholder for Question 7: Coming soon]</div>
     <div class="button-group">
@@ -123,7 +127,7 @@ description: >-
     </div>
   </div>
   
-  <!-- Question 8 -->
+  <!-- Question 8 Placeholder -->
   <div class="quiz-question" id="question-8" style="display: none;">
     <div class="statement">[Placeholder for Question 8: Coming soon]</div>
     <div class="button-group">
@@ -136,7 +140,7 @@ description: >-
     </div>
   </div>
   
-  <!-- Question 9 -->
+  <!-- Question 9 Placeholder -->
   <div class="quiz-question" id="question-9" style="display: none;">
     <div class="statement">[Placeholder for Question 9: Coming soon]</div>
     <div class="button-group">
@@ -149,7 +153,7 @@ description: >-
     </div>
   </div>
   
-  <!-- Question 10 -->
+  <!-- Question 10 Placeholder -->
   <div class="quiz-question" id="question-10" style="display: none;">
     <div class="statement">[Placeholder for Question 10: Coming soon]</div>
     <div class="button-group">
@@ -252,7 +256,7 @@ function showQuestion(q) {
   menuButtons.forEach(function(btn) {
     btn.classList.remove('active');
   });
-  // Note: Assumes buttons are in order; use nth-child selector
+  // Activate the current question's button (assumes buttons are in order)
   document.querySelector('.quiz-menu-button:nth-child(' + q + ')').classList.add('active');
 }
 
@@ -282,3 +286,4 @@ document.addEventListener("DOMContentLoaded", function() {
   showQuestion(1);
 });
 </script>
+
