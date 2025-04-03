@@ -7,7 +7,7 @@ alt: image-alt
 project-date: April 2014
 client: Start 
 category: 
-description: Use this area of the page to describe your project. Lorem ipsum dolor sit amet, consectetur adipisicing elit. Mollitia neque assumenda ipsam nihil, molestias magnam, recusandae quos quis inventore quisquam velit asperiores, vitae? Reprehenderit soluta, eos quod consequuntur itaque. Nam.
+description: Put your knowledge of neuroscience terms to the test with five interactive Wordle games!
 ---
 
 
