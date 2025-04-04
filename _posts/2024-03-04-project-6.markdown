@@ -14,7 +14,7 @@ description:
 
 ## Who
 
-<img src="img/portfolio/team.jpg" width="300" />
+<img src="img/portfolio/team.jpg" width="600" />
 
 
 **Marian Simarro**, PhD Candidate, Max Planck School of Cognition (second left)
