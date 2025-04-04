@@ -14,7 +14,7 @@ description:
 
 ## Who
 
-![image-alt](team.jpg)
+![image-alt](img/portfolio/team.jpg)
 
 **Marian Simarro**, PhD Candidate, Max Planck School of Cognition (second left)
 **Ananda Bajric**, PhD Candidate, Max Planck School of Cognition (far right)
